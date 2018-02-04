@@ -264,11 +264,11 @@
     });
   
     // computer playing
-    setInterval(computerPlay, 1000);
+    setInterval(computerPlay, 10);
   
     // triggering: display tie or winners
-    setInterval(playerTwoWins, 1000);
-    setInterval(tie, 1000);
+    setInterval(playerTwoWins, 10);
+    setInterval(tie, 10);
     game.ulBox.addEventListener('click', playerOneWins);
   
     game.newGameBtn.addEventListener('click', starNewGame);
