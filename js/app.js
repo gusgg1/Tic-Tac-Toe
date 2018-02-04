@@ -268,7 +268,7 @@
   
     // triggering: display tie or winners
     setInterval(playerTwoWins, 1);
-    setInterval(tie, 1);
+    setInterval(tie, 1000);
     game.ulBox.addEventListener('click', playerOneWins);
   
     game.newGameBtn.addEventListener('click', starNewGame);
