@@ -16,6 +16,7 @@ h1 {
   width: 1.875em; }
 
 .button {
+  margin-left: 7px;
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
@@ -26,6 +27,16 @@ h1 {
   transition: 0.25s ease; }
   .button:hover {
     color: #000; }
+
+.computer {
+  margin-left: 50px;
+}
+
+#name {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
 
 .screen {
   text-align: center;
@@ -86,7 +97,6 @@ h1 {
   .board h1 {
     margin-top: 0.3em; }
 
-
 .players {
   color: rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -95,16 +105,13 @@ h1 {
   width: 35%;
   padding: 1.25em 0 1em;
   outline: 1px solid #ccc;
-  transition: 1s; 
-}
-.players svg g {
-  fill: rgba(0, 0, 0, 0.25); 
-}
+  transition: 1s; }
+  .players svg g {
+    fill: rgba(0, 0, 0, 0.25); }
   .players:first-child {
     left: 2.5%; }
   .players:last-child {
-    right: 2.5%; 
-  }
+    right: 2.5%; }
   .players-turn {
     outline: none;
   }
@@ -113,8 +120,7 @@ h1 {
   #player1.active {
     background: #FFA000; }
   #player2.active {
-    background: #3688C3; 
-}
+    background: #3688C3; }
 
 .boxes {
   width: 480px;
@@ -141,7 +147,5 @@ h1 {
       background-image: url(../img/o.svg); }
     .boxes .box-filled-2 {
       background-color: #3688C3;
-      background-image: url(../img/x.svg); 
-}
-
+      background-image: url(../img/x.svg); }
 
